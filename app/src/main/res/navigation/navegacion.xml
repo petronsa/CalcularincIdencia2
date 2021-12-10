@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/navegacionFragment">
+
+    <fragment
+        android:id="@+id/navegacionFragment"
+        android:name="com.petron.calcularincidencia.NavegacionFragment"
+        android:label="@string/fragment_one"
+        tools:layout="@layout/fragment_uno" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.petron.calcularincidencia.HelpFragment"
+        android:label="@string/fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.petron.calcularincidencia.InfoFragment"
+        android:label="@string/fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.petron.calcularincidencia.AboutFragment"
+        android:label="@string/fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

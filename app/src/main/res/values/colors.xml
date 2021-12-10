@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_300">#FFF06292</color>
+    <color name="pink_800">#FFAD1457</color>
+    <color name="pink_A100">#FFFF80AB</color>
+    <color name="green_300">#FF81C784</color>
+    <color name="green_800">#FF2E7D32</color>
+    <color name="green_A200">#FF69F0AE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#FF2E7D32</color>
+
+</resources>

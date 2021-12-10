@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.NavegacionData3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_300</item>
+        <item name="colorPrimaryVariant">@color/pink_800</item>
+        <item name="colorPrimarySurface">@color/pink_A100</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/green_300</item>
+        <item name="colorPrimaryDark">@color/pink_800</item>
+        <item name="android:subtitleTextColor">@color/green_800</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_300</item>
+        <item name="colorSecondaryVariant">@color/green_800</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
